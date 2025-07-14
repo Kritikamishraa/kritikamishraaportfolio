@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kritika Mishra | Data Analyst Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome CDN (put this inside <head> of your HTML) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #000;
+      color: #eee;
+      overflow-x: hidden;
+    }
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("tjD33YvS61M2AxoVU");
+  })();
+</script>
+
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <!-- Header -->
+    <div class="container mx-auto px-4 md:px-8 flex justify-between items-center">
+      <a href="#hero" class="text-2xl font-bold text-[#626F47]">Kritika<span class="text-[#d4a373]">Portfolio</span></a>
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="#home" class="font-medium text-gray-700 hover:text-[#626F47] transition-colors">Home</a>
+        <a href="#about" class="font-medium text-gray-700 hover:text-[#626F47] transition-colors">About</a>
+        <a href="#skills" class="font-medium text-gray-700 hover:text-[#626F47] transition-colors">Skills</a>
+        <a href="#projects" class="font-medium text-gray-700 hover:text-[#626F47] transition-colors">Projects</a>
+        <a href="#contact" class="font-medium text-gray-700 hover:text-[#626F47] transition-colors">Contact</a>
+        <div class="flex items-center space-x-4">
+          <a href="https://github.com/Kritikamishraa" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github h-5 w-5 text-gray-700 hover:text-[#626F47]">
+              <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+              <path d="M9 18c-4.51 2-5-2-7-2"></path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/kritika-mishra-578574317/" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-5 w-5 text-gray-700 hover:text-[#626F47]">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </div>
+      </nav>
+      <button class="md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-6 w-6 text-gray-700">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Sections -->
+<section id="home" class="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden">
+  <div class="absolute inset-0 z-0 opacity-60"></div>
+  <div class="container mx-auto px-4 md:px-8 py-16 z-10">
+    <div class="text-center max-w-4xl mx-auto" style="opacity: 1; transform: none;">
+      <div class="mb-4 inline-block px-4 py-1 rounded-full bg-[#626F47]/10 text-[#626F47] font-medium" style="opacity: 1; transform: none;">
+        DATA ANALYST
+      </div>
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight" style="font-family: 'Playfair Display', serif; opacity: 1; transform: none;">
+        Kritika <span class="text-[#626F47]">Mishra</span>
+      </h1>
+      <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto" style="opacity: 1; transform: none;">
+        Data analyst fresher with a strong foundation in Python, SQL, Excel, and Power BI, eager to contribute data-driven insights and automation solutions.
+      </p>
+     <div class="flex flex-wrap gap-5 justify-center" style="opacity: 1; transform: none;">
+  <a href="#about" class="button-outline border border-[#626F47] text-[#626F47] rounded px-8 py-4 text-lg" tabindex="0">About Me</a>
+  <a href="#skills" class="button-outline border border-[#626F47] text-[#626F47] rounded px-8 py-4 text-lg" tabindex="0">My Skills</a>
+  <a href="#projects" class="button-outline border border-[#626F47] text-[#626F47] rounded px-8 py-4 text-lg" tabindex="0">View My Work</a>
+  <a href="#contact" class="button-primary bg-[#626F47] text-white rounded px-8 py-4 text-lg" tabindex="0">Get in Touch</a>
+</div>
+
+      <div class="mt-16 flex justify-center gap-10 text-gray-400" style="opacity: 1; transform: none;">
+        <span class="text-sm md:text-base">Python</span>
+        <span class="text-sm md:text-base">SQL</span>
+        <span class="text-sm md:text-base">Excel</span>
+        <span class="text-sm md:text-base">Power BI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="container mx-auto px-4 md:px-8 mt-16">
+  <div class="mb-12 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4" style="font-family: 'Playfair Display', serif;">
+      About <span class="text-[#626F47]">Me</span>
+    </h2>
+
+    <div class="w-20 h-1 bg-[#626F47] mx-auto"></div>
+  </div>
+
+  <div class="grid md:grid-cols-1 gap-10 items-center text-center justify-center">
+
+    <div class="max-w-2xl mx-auto">
+
+      <h3 class="text-2xl font-bold mb-4 text-center">
+        Aspiring Data Analyst with Strong Analytical Skills
+      </h3>
+
+      <p class="text-gray-600 mb-4 text-center md:text-left">
+        I completed my B.Tech in Computer Science in 2023 and passionate about working with data to extract meaningful insights and help in data-driven decision making.
+        I have hands-on experience with Python, SQL, Power BI, Excel, Pandas, and NumPy through academic and personal projects.
+      </p>
+
+      <p class="text-gray-600 mb-6 text-center md:text-left">
+        I enjoy solving real-world problems using data, building dashboards and reports, and continuously learning new tools and techniques.
+        When I’m not analyzing data, I’m exploring new technologies or working on personal projects to sharpen my skills.
+      </p>
+
+      <div class="grid grid-cols-2 gap-4 mb-6">
+        <div>
+          <h4 class="font-semibold mb-2">Name:</h4>
+          <p class="text-gray-600">Kritika Mishra</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-2">Email:</h4>
+          <p class="text-gray-600">kritikamishraa12@gmail.com</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-2">Location:</h4>
+          <p class="text-gray-600">India</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-2">Availability:</h4>
+          <p class="text-gray-600">Open to opportunities</p>
+        </div>
+      </div>
+<a href="https://drive.google.com/file/d/1P26f0M9I9PIAzICiyYrXmDDuOF3FKV4J/view"
+   target="_blank"
+   class="button-primary inline-flex items-center mb-12">
+  Download Resume
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+       fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+       class="lucide lucide-arrow-right ml-2 h-4 w-4">
+    <path d="M5 12h14"></path>
+    <path d="m12 5 7 7-7 7"></path>
+  </svg>
+</a>
+
+
+
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+<!-- Skills Section -->
+
+  <section id="skills" class="section">
+
+
+    
+    <div class="mb-12 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        My <span class="text-[#626F47]">Skills</span>
+      </h2>
+      <div class="w-20 h-1 bg-[#626F47] mx-auto mb-6"></div>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        Here are the technologies and skills I've been working with to create modern applications.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12">
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fab fa-python text-xl"></i>
+        <span class="text-lg font-medium">Python</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fas fa-database text-xl"></i>
+        <span class="text-lg font-medium">SQL</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fas fa-file-excel text-xl"></i>
+        <span class="text-lg font-medium">Excel</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fas fa-chart-bar text-xl"></i>
+        <span class="text-lg font-medium">Power BI</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fas fa-code-branch text-xl"></i>
+        <span class="text-lg font-medium">Pandas</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fas fa-square-root-alt text-xl"></i>
+        <span class="text-lg font-medium">NumPy</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fab fa-html5 text-xl"></i>
+        <span class="text-lg font-medium">HTML5</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fab fa-css3-alt text-xl"></i>
+        <span class="text-lg font-medium">CSS3</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fab fa-js-square text-xl"></i>
+        <span class="text-lg font-medium">JavaScript</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fab fa-bootstrap text-xl"></i>
+        <span class="text-lg font-medium">Bootstrap</span>
+      </div>
+
+      <div class="bento-card flex items-center justify-center py-4 gap-2">
+        <i class="fas fa-laptop-code text-xl"></i>
+        <span class="text-lg font-medium">Responsive Design</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  
+<section id="projects" class="section py-16">
+  <div class="container mx-auto px-4 md:px-8">
+    <!-- Section Header -->
+    <div class="mb-12 text-center">
+     <h2 class="text-3xl md:text-4xl font-bold mb-4" style="font-family: 'Playfair Display', serif;">
+  Featured Projects
+</h2>
+      <div class="w-20 h-1 bg-[#626F47] mx-auto mb-6"></div>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        Here are some of my recent projects that showcase my technical skills and design aesthetic.
+      </p>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Project 1 -->
+    <div class="bento-card overflow-hidden flex flex-col h-full shadow-md rounded-xl p-4 bg-black">
+  <div class="relative mb-2 overflow-hidden rounded-lg h-48 bg-gray-100">
+    <img 
+      src="https://plus.unsplash.com/premium_photo-1661764189164-d4e65c47e7b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+      alt="Premium Flower Photo" 
+      class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-110"
+    >
+  </div>
+
+  <h3 class="text-xl font-bold mb-2">Whispers of Ghibli's Enchanted Tale</h3>
+  <p class="text-gray-600 mb-4 flex-grow">
+    Analyzed Studio Ghibli character data using SQL to uncover insights on age, gender, height, powers, and species. Utilized advanced SQL techniques like joins, CTEs, and window functions to explore patterns and trends in the magical world of Ghibli.
+  </p>
+
+  <div class="flex flex-wrap gap-2 mb-4">
+    <span class="badge">SQL</span>
+    <span class="badge">CSV</span>
+    <span class="badge">Markdown</span>
+  </div>
+
+  <div class="flex items-center gap-4 mt-auto">
+    <a href="https://github.com/Kritikamishraa/Whispers-of-Ghibli-s-Enchanted-Tale" target="_blank" class="project-link">Code</a>
+  </div>
+</div>
+
+
+
+      <!-- Project 2 -->
+      <div class="bento-card overflow-hidden flex flex-col h-full shadow-md rounded-xl p-4 bg-black">
+  <div class="relative mb-4 overflow-hidden rounded-lg h-48">
+    <img 
+      src="https://images.unsplash.com/photo-1588277733475-14859f4a10d2?q=80&w=785&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+      alt="B2B E-commerce Solutions" 
+      class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-110"
+    >
+  </div>
+
+  <h3 class="text-xl font-bold mb-2">Netflix Content Data Analysis</h3>
+  <p class="text-gray-600 mb-4 flex-grow">
+About
+Conducted an exploratory data analysis on Netflix’s catalog to evaluate trends in content production. Analyzed genre popularity, country contributions, and year-wise content growth. Applied Pandas for data manipulation and NumPy for statistical calculations. Cleaned and transformed real-world data to derive business insights.  </p>
+
+  <div class="flex flex-wrap gap-2 mb-4">
+     <span class="badge">Python</span>
+    <span class="badge">Pandas</span>
+    <span class="badge">NumPy</span>
+    
+  </div>
+
+  <div class="flex items-center gap-4 mt-auto">
+<a href="https://github.com/Kritikamishraa/Netflix-Content-Data-Analysis " target="_blank" class="project-link">Code</a>   
+  </div>
+</div>
+
+
+      <!-- Project 3 -->
+      <div class="bento-card overflow-hidden flex flex-col h-full shadow-md rounded-xl p-4 bg-black">
+  <div class="relative mb-4 overflow-hidden rounded-lg h-48">
+    <img 
+      src="https://images.unsplash.com/photo-1718137918383-68e0a0eabacb?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+      alt="Dev Tool Hub" 
+      class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-110"
+    >
+  </div>
+
+  <h3 class="text-xl font-bold mb-2">Airbnb Listings Analysis</h3>
+  <p class="text-gray-600 mb-4 flex-grow">
+Analyze Airbnb listings data using Python, Pandas, and NumPy to uncover pricing trends, host ratings, and availability patterns.  </p>
+
+  <div class="flex flex-wrap gap-2 mb-4">
+   <span class="badge">Python</span>
+    <span class="badge">Pandas</span>
+    <span class="badge">NumPy</span>
+  </div>
+
+  <div class="flex items-center gap-4 mt-auto">
+    <a href="https://github.com/Kritikamishraa/airbnb-listings-analysis" class="project-link" target="_blank">Code</a>
+  </div>
+</div>
+
+
+      <!-- Project 4 -->
+     <div class="bento-card overflow-hidden flex flex-col h-full shadow-md rounded-xl p-4 bg-black">
+  <div class="relative mb-4 overflow-hidden rounded-lg h-48">
+    <img 
+      src="https://images.unsplash.com/photo-1594522135285-9227cab730ec?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+      alt="Icon Library" 
+      class="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-110"
+    >
+  </div>
+
+  <h3 class="text-xl font-bold mb-2">Icon Library</h3>
+  <p class="text-gray-600 mb-4 flex-grow">
+Exploratory Data Analysis (EDA) to detect patterns in fake vs genuine Instagram accounts using Python. Includes visualizations, summary insights, and clean data.
+
+  </p>
+
+  <div class="flex flex-wrap gap-2 mb-4">
+    <span class="badge">Python</span>
+    
+  </div>
+
+  <div class="flex items-center gap-4 mt-auto">
+    <a href="https://github.com/Kritikamishraa/instagram-fake-vs-genuine" class="project-link" target="_blank">Code</a>
+  </div>
+</div>
+
+</section>
+
+<style>
+  .badge {
+    @apply text-xs font-medium px-2 py-1 rounded-full bg-[#626F47]/10 text-[#626F47];
+  }
+  .project-link {
+    @apply flex items-center text-sm font-medium text-gray-700 hover:text-[#626F47];
+  }
+</style>
+
+
+
+  <section id="contact" class="py-[0px] w-[100%] min-w-[100%]">
+  <div class="flex items-center gap-5">
+    <h3 class="text-3xl font-[800] text-white sm:text-5xl">Get In Touch</h3>
+    <div class="mt-2 h-[4px] min-w-0 flex-grow bg-white"></div>
+  </div>
+
+  <div class="flex flex-col md:flex-row lg:flex-row gap-10 mt-[80px] justify-between">
+    <div class="w-auto max-w-xl space-y-5">
+      <h2 class="text-primary-blue text-2xl font-bold">Why Be Shy, Say Hi...</h2>
+      <p>
+        I'm open to new opportunities and look forward to connecting with you.
+        Whether you have inquiries or just want to say hello, feel free to reach out.
+        I'll do my best to respond promptly!
+      </p>
+      <!-- your social icons here -->
+    </div>
+
+    <div class="mt-10 w-full p-4 md:mt-0 md:w-[40%]">
+      <form id="contact-form" class="flex flex-col">
+
+        <div class="mb-6">
+          <label for="email" class="block mb-2 text-sm font-medium text-white">Your email</label>
+          <input id="email" required class="block w-full rounded-lg border border-[#33353F] bg-[#18191E] p-2.5 text-sm text-gray-100" placeholder="your@email.com" type="email" name="user_email">
+        </div>
+        <div class="mb-6">
+          <label for="name" class="block mb-2 text-sm font-medium text-white">Name</label>
+          <input id="name" required class="block w-full rounded-lg border border-[#33353F] bg-[#18191E] p-2.5 text-sm text-gray-100" placeholder="Your Name" type="text" name="user_name">
+        </div>
+        <div class="mb-6">
+          <label for="message" class="block mb-2 text-sm font-medium text-white">Message</label>
+          <textarea id="message" name="user_message" class="block w-full rounded-lg border border-[#33353F] bg-[#18191E] p-2.5 text-sm text-gray-100" placeholder="Let's talk about..."></textarea>
+        </div>
+        <button type="submit" class="w-full rounded-full border-2 border-white bg-transparent px-5 py-2.5 text-sm font-medium text-white hover:scale-[0.98] hover:bg-darkHover">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+  
+  <!-- Footer -->
+<footer id="footer" class="bg-[#626F47] text-white py-10 relative transition-colors duration-300">
+
+  <div class="container mx-auto px-4 md:px-8">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <h2 class="text-2xl font-bold">Kritika<span class="text-[#d4a373]">Portfolio</span></h2>
+        <p class="mt-2 text-sm text-white/80">© 2025 All Rights Reserved</p>
+      </div>
+      <div class="flex space-x-6 items-center">
+        <a href="https://github.com/Kritikamishraa" target="_blank" class="hover:text-[#d4a373] transition-transform transform hover:scale-110">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/kritika-mishra-578574317/" target="_blank" class="hover:text-[#d4a373] transition-transform transform hover:scale-110">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect width="4" height="12" x="2" y="9"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/kritika___mishraa/" target="_blank" class="hover:text-[#d4a373] transition-transform transform hover:scale-110">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        <a href="mailto:kritikamishraa12@gmail.com" class="hover:text-[#d4a373] transition-transform transform hover:scale-110">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16v16H4z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+        <!-- Dark mode toggle button -->
+        <button id="darkModeToggle" onclick="toggleDarkMode()" class="hover:text-[#d4a373] transition-transform transform hover:scale-110">
+          <svg id="darkModeIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <button onclick="scrollToTop()" class="fixed bottom-6 right-6 bg-[#d4a373] text-black p-2 rounded-full shadow-lg hover:scale-110 transition-transform">
+    ↑
+  </button>
+</footer>
+
+<script>
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+  const icon = document.getElementById('darkModeIcon');
+  if (document.body.classList.contains('dark-mode')) {
+    icon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>';
+  } else {
+    icon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
+  }
+}
+</script>
+
+<style>
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode {
+  background-color: #ffffff;
+  color: #eee;
+}
+</style>
+
+<script>
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+  const icon = document.getElementById('darkModeIcon');
+  if (document.body.classList.contains('dark-mode')) {
+    icon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>';
+  } else {
+    icon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
+  }
+}
+</script>
+
+<style>
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+</style>
+
+
+<script>
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+  const icon = document.getElementById('darkModeIcon');
+  if (document.body.classList.contains('dark-mode')) {
+    icon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>';
+  } else {
+    icon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
+  }
+}
+</script>
+
+<style>
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+</style>
+
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function toggleDarkMode() {
+    const footer = document.getElementById('footer');
+    if (footer.classList.contains('bg-[#626F47]')) {
+      footer.classList.remove('bg-[#626F47]');
+      footer.classList.add('bg-black');
+    } else {
+      footer.classList.remove('bg-black');
+      footer.classList.add('bg-[#626F47]');
+    }
+  }
+</script>
+
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function toggleDarkMode() {
+    const footer = document.getElementById('footer');
+    if (footer.classList.contains('bg-[#626F47]')) {
+      footer.classList.remove('bg-[#626F47]');
+      footer.classList.add('bg-black');
+      footer.classList.add('text-white');
+    } else {
+      footer.classList.remove('bg-black');
+      footer.classList.add('bg-[#626F47]');
+    }
+  }
+</script>
+
+
+
+
+  <!-- Three.js script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('bg') });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    const geometry = new THREE.TorusKnotGeometry(10, 3, 100, 16);
+    const material = new THREE.MeshStandardMaterial({ color: 0x007acc });
+    const torusKnot = new THREE.Mesh(geometry, material);
+    scene.add(torusKnot);
+    const light = new THREE.PointLight(0xffffff);
+    light.position.set(20, 20, 20);
+    scene.add(light);
+    camera.position.z = 30;
+    function animate() {
+      requestAnimationFrame(animate);
+      torusKnot.rotation.x += 0.01;
+      torusKnot.rotation.y += 0.01;
+      renderer.render(scene, camera);
+    }
+    animate();
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+  </script>
+  <script>
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_kvo1tkw', 'template_5buwg0l', this)
+      .then(function() {
+        alert('Message sent successfully!');
+        document.getElementById('contact-form').reset();
+      }, function(error) {
+        alert('Failed to send message.\n' + JSON.stringify(error));
+      });
+  });
+</script>
+
+</body>
+</html>
