@@ -29,7 +29,7 @@ A clean and responsive **personal portfolio website** designed to showcase your 
 
 ## 🚀 Live Demo
 
-> 🔗 [your-portfolio-link.com]https://kritikamishraaportfolio.netlify.app/
+> 🔗 My portfolio https://kritikamishraaportfolio.netlify.app/
 
 ---
 
